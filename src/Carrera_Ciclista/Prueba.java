@@ -155,7 +155,3 @@ public class Prueba {
         }
     }
 }
-
-//        Equipo Eq = new Equipo(Nombre_equipo, Pais);
-//        System.out.println("Los datos de su equipo son: ");
-//        Eq.Imprimir();

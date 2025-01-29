@@ -8,7 +8,8 @@ public class Equipo {
     private String Nombre_equipo;
     private static double Suma_tiempos;
     private String Pais;
-    Vector Lista_Equipo;
+    Vector<Ciclistas> Lista_Equipo;
+
 
     Scanner scanner = new Scanner(System.in);
 
@@ -17,7 +18,7 @@ public class Equipo {
         this.Pais = Pais;
         this.Nombre = Nombre;
         Suma_tiempos = 0;
-        Lista_Equipo = new Vector();
+        Lista_Equipo = new Vector<> ();
     }
 
     private String Get_Nombre_equipo(String Nombre_equipo) {
